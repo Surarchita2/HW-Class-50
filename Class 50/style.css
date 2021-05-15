@@ -1,0 +1,51 @@
+h1 {
+    color:  #ffffff;
+}
+
+/*            * {
+        border: solid;
+    }
+*/
+
+p{
+    color: #a6dfbe;
+    width: 50 px;
+    height: 50;
+}
+
+.header {
+    background-color: #45df0883;
+    border: solid medium #191398af;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    background-color: #dfd378e5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+p, h2 {
+    text-align: center;
+}
+
+body {
+    background-color: #942626;
+}
+
+/*
+- fix description if you want you can have-
+
+.site-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+*/
